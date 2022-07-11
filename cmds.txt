@@ -1,0 +1,42 @@
+git clone https://github.com/GoogleKhan/BasicCommands.git
+
+git status
+
+git add .
+
+git commit -m "add A.java"
+
+git push
+
+---------------------------------------
+$ git branch
+* main
+
+
+$ git pull origin
+From https://github.com/GoogleKhan/BasicCommands
+ * [new branch]      feature1   -> origin/feature1
+Already up to date.
+-----------------------------------------
+To switch a branch
+
+$ git checkout feature1
+
+For merging:
+-----------------
+$ git checkout main
+$ git merge feature1
+
+$ git push origin
+
+--------------------------------------
+$ git branch => list all branches
+
+$ git branch feature2 => create a new branch of name feature2
+
+======================================================================
+$ git tag => list all tags
+
+$ git tag <tag_name> => create a new tag of given name 
+
+$ git push origin <tag_name>
